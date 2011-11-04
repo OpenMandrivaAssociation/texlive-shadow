@@ -44,6 +44,7 @@ mechanisms.
 %{_texmfdistdir}/tex/latex/shadow/shadow.sty
 %doc %{_texmfdistdir}/doc/latex/shadow/shadow-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/shadow/shadow-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +55,5 @@ mechanisms.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
