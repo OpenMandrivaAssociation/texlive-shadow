@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-shadow
 Version:	20101101
-Release:	8
+Release:	9
 Summary:	Shadow boxes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/shadow
