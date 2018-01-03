@@ -1,9 +1,3 @@
-# revision 20312
-# category Package
-# catalog-ctan /macros/latex/contrib/shadow
-# catalog-date 2010-11-01 13:35:24 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-shadow
 Version:	20170414
 Release:	1
@@ -32,9 +26,8 @@ mechanisms.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/shadow/shadow.sty
-%doc %{_texmfdistdir}/doc/latex/shadow/shadow-doc.pdf
-%doc %{_texmfdistdir}/doc/latex/shadow/shadow-doc.tex
+%{_texmfdistdir}/tex/latex/shadow
+%doc %{_texmfdistdir}/doc/latex/shadow
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,17 +38,3 @@ mechanisms.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101101-2
-+ Revision: 755978
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101101-1
-+ Revision: 719522
-- texlive-shadow
-- texlive-shadow
-- texlive-shadow
-- texlive-shadow
-
