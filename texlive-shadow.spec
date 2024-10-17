@@ -3,7 +3,7 @@ Version:	20312
 Release:	2
 Summary:	Shadow boxes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/shadow
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/shadow
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/shadow.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/shadow.doc.r%{version}.tar.xz
